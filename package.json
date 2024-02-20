@@ -4,12 +4,17 @@
   "description": "[![Actions Status](https://github.com/gozhon/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/gozhon/frontend-project-44/actions)",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "make": "^0.8.1"
+    "link": "^2.1.0",
+    "make": "^0.8.1",
+    "publish": "^0.6.0"
   }
 }
