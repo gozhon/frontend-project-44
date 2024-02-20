@@ -2,6 +2,7 @@ import calc from '../games/calc.js';
 import even from '../games/even.js';
 import gcd from '../games/gcd.js';
 import progression from '../games/progression.js';
+import isPrime from '../games/prime.js';
 //= ==================================================//
 
 const tasks = (taskName) => {
