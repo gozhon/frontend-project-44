@@ -1,5 +1,6 @@
 import calc from '../games/calc.js';
 import even from '../games/even.js';
+import gcd from '../games/gcd.js';
 //= ==================================================//
 
 const tasks = (taskName) => {
