@@ -1,6 +1,5 @@
 import greetings from '../cli.js';
 import question from './index.js';
-
 //= =========================================//
 
 // message = (count = 3, args = false, boolAns=true)

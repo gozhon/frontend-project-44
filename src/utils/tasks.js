@@ -1,8 +1,5 @@
-import gcd from './games/gcd.js';
-import calc from './games/calc.js';
-import even from './games/even.js';
-import progression from './games/progression.js';
-import isPrime from './games/prime.js';
+import calc from '../games/calc.js';
+import even from '../games/even.js';
 //= ==================================================//
 
 const tasks = (taskName) => {
