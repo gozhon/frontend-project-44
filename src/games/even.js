@@ -1,4 +1,4 @@
-import getRandomInteger from "../utils/getRandomInt.js";
+import getRandomInteger from '../utils/getRandomInt.js';
 //= ===========================================//
 
 const even = () => {
