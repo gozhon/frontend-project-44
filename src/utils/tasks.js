@@ -1,0 +1,37 @@
+import gcd from './games/gcd.js';
+import calc from './games/calc.js';
+import even from './games/even.js';
+import progression from './games/progression.js';
+import isPrime from './games/prime.js';
+//= ==================================================//
+
+const tasks = (taskName) => {
+  let rightAnswer;
+  switch (taskName) {
+    case 'even': {
+      rightAnswer = even();
+      break;
+    }
+    case 'gcd': {
+      rightAnswer = gcd();
+      break;
+    }
+    case 'calc': {
+      rightAnswer = calc();
+      break;
+    }
+    case 'progression': {
+      rightAnswer = progression();
+      break;
+    }
+    case 'prime': {
+      rightAnswer = isPrime();
+      break;
+    }
+    default:
+      break;
+  }
+  return rightAnswer;
+};
+
+export default tasks;
