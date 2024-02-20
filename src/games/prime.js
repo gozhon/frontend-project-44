@@ -3,7 +3,7 @@ import getRandomInteger from "../utils/getRandomInt.js";
 
 const isPrime = () => {
   const n = getRandomInteger();
-  console.log('Question: ', n);
+  console.log('Question:', n);
   let answer;
   if (n < 2) {
     answer = 'no';

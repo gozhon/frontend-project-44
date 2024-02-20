@@ -12,7 +12,7 @@ const progression = () => {
   const hideNumber = getRandomInteger(0, result.length - 1);
   const answer = result[hideNumber];
   result[hideNumber] = '..';
-  console.log('Question: ', result.join(' '));
+  console.log('Question:', result.join(' '));
   return answer;
 };
 
